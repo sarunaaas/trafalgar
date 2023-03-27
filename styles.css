@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.menu__links {
+    display: flex;
+}
+
+.menu__links li {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.menu__links li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1F1534;
+    opacity: 0.5;
+}
+.menu__links li:first-child a {
+    font-weight: bold;
+    opacity: 1;
+}
