@@ -11,16 +11,17 @@
     <!-- HEADER -->
     <header>
         <div class="navbar">
-            <img src="/img/logo.png" alt="">
+            <img src="/img/logo.png" class="logotipas" alt="">
                 <ul class="menu__links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Find a doctor</a></li>
                     <li><a href="#">Apps</a></li>
-                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#">About us</a></li>
                 </ul>
         </div>
-        <img src="/img/vectors/headervector.png" class="headervector"alt="">
+        <i class="fa fa-bars burger" id="burgerisas"></i>
+        <img src="/img/vectors/article-vectors.png" class="headervector" alt="">
         <div class="container">
             <div class="content">
                 <h1>Virtual healthcare for you</h1>
@@ -42,12 +43,13 @@
     <div class="services_cards">
         <img src="/img/cards-bg.png" class="cards-bg" alt="">
         <div class="first_card">
-            <img src="/img/cards/firstcard.png" alt="">
+            <img src="/img/cards/consultation.png" alt="">
+
             <h1>Search doctor</h1>
             <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
         </div>
         <div class="first_card">
-            <img src="/img/cards/pharmacy.png" alt="">
+            <img src="/img/cards/consultation.png" alt="">
             <h1>Online pharmacy</h1>
             <p>Buy  your medicines with our mobile application with a simple delivery system</p>
         </div>
@@ -62,7 +64,8 @@
             <p>Free consultation with our trusted doctors and get the best recomendations</p>
         </div>
         <div class="first_card">
-            <img src="/img/cards/emergency.png" alt="">
+            <img src="/img/cards/consultation.png" alt="">
+
             <h1>Emergency care</h1>
             <p>You can get 24/7 urgent care for yourself or your children and your
                 lovely family</p>
@@ -73,6 +76,155 @@
             <p>Track and save your medical history and health data </p>
         </div>
     </div>
+    <a href="#">Learn More</a>
     </section>
+    <!-- two same sections with different content -->
+    <!-- first section -->
+    <section class="two-columns">
+        <img src="/img/trafalgar-illustration-2.png" class="responsive-kazkoks" alt="">
+    <div class="healthcare">
+        <img src="/img/trafalgar-illustration-1.png" class="healthcare-img" alt="">
+        <div class="healthcare-content">
+            <h1>Leading healthcare providers</h1>
+            <span></span>
+            <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
+                in the solutions we deliver</p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+    <img src="/img/vectors/between-same-columns.png" class="between-same-columns columns-responsive" alt="">
+    <!-- second section -->
+    <div class="healthcare">
+        <div class="healthcare-content healthcare-aps">
+            <h1>Download our 
+                mobile apps</h1>
+            <span></span>
+            <p>Our dedicated patient engagement app and 
+                web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                or administrative hassle) and securely</p>
+            <a href="#">Download</a>
+        </div>
+        <img src="/img/trafalgar-illustration-2.png" class="columns-responsive" alt="">
+    </div>
+    </section>
+    <!-- feedback section -->
+    <section class="feedback-container" id="testimonials">
+        <img src="/img/vectors/feedback-vectors.png" class="right-vector" alt="">
+        <img src="/img/vectors/feedback-vectors-left.png" class="left-vector" alt="">
+        <h1>What our customer are saying</h1>
+        <span class="breakline"></span>
+        <div class="feedback fade slide-out">
+            <img src="/img/avatars/1.jpg" alt="" class="profile-pic">
+            <div class="author">
+                <h6>Edward Newgate</h6>
+                <h4>Rasytojas tapytojas</h4>
+            </div>
+            <p>“Our dedicated patient engagement app and 
+                web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                or administrative hassle) and securely”</p>
+        </div>
+        <div class="feedback fade slide-out">
+            <img src="/img/avatars/2.jpg" alt="" class="profile-pic">
+            <div class="author">
+                <h6>Tavo tevas</h6>
+                <h4>Kiemsargiu brigadioras</h4>
+            </div>
+            <p>"Our cutting-edge productivity tool streamlines your workflow and helps you maximize your time efficiency, so you can focus on what truly matters - delivering quality results to your clients and growing your business."</p>
+        </div>
+        <div class="feedback fade slide-out">
+            <img src="/img/avatars/3.jpg" alt="" class="profile-pic">
+            <div class="author">
+                <h6>Ruta lazauskiene</h6>
+                <h4>Sesers brolis</h4>
+            </div>
+            <p>"Our state-of-the-art fitness tracker monitors your activity levels and provides personalized insights and recommendations to help you achieve your health and wellness goals faster and more effectively than ever before."</p>
+        </div>
+    </section>
+        <div class="controls">
+            <div class="arrows">
+              <a class="prev" onclick="plusSlides(-1)">&#8678;</a>
+              <a class="next" onclick="plusSlides(1)">&#8680;</a>
+            </div>
+            <div class="dots">
+              <span class="dot active" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+          </div>
+
+        <!-- 3 article cards -->
+    <div class="forgotten-container">
+        <h1>Check out our latest article</h1>
+        <span></span>
+        <img src="/img/article-image.png" class="article-image" alt="">
+    </div>
+    <article>
+        <img src="/img/vectors/article-vectors.png" class="article-vector" alt="">
+        <div class="article-card">
+            <img src="/img/article/first-article-card.png" alt="">
+            <div class="card-content">
+                <h1 class="article-h1">Disease detection, check 
+                    up in the laboratory</h1>
+                <p class="article-p">In this case, the role of the health laboratory is very important to do
+                    a disease detection...</p>
+                    <a href="#" class="article-a">Read More<i class="fa-solid fa-arrow-right article-icon"></i></a>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="/img/article/second-article-card.png" alt="">
+            <div class="card-content">
+                <h1 class="article-h1">Herbal medicines that are 
+                    safe for consumption</h1>
+                <p class="article-p">Herbal medicine is very widely used at this time because of its very good for your health...</p>
+                <a href="#" class="article-a">Read More<i class="fa-solid fa-arrow-right article-icon"></i></a>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="/img/article/third-article-card.png" alt="">
+            <div class="card-content">
+                <h1 class="article-h1">Natural care for healthy 
+                    facial skin</h1>
+                <p class="article-p">A healthy lifestyle should start from now and also for your skin health.
+                    There are some...</p>
+                <a href="#" class="article-a">Read More<i class="fa-solid fa-arrow-right article-icon"></i></a>
+            </div>
+        </div>
+    </article>
+        <a href="#" class="article-link">Learn More</a>\
+        <footer>
+            <img src="/img/vectors/vector-between-footer-article.png" class="footer-vector" alt="">
+            <img src="/img/vectors/vector-between-footer-article.png" class="footer-vector2" alt="">
+            <div class="about-project">
+                <img src="/img/logo.png" class="logotype" alt="">
+                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online 
+                    for everyone</p>
+                <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+            </div>
+            <div class="first-column columns">
+                <h1>Company</h1>
+                <a href="#">About</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Find a doctor</a>
+                <a href="#">Apps</a>
+            </div>
+            <div class="second-column columns">
+                <h1>Region</h1>
+                <a href="#">Indonesia</a>
+                <a href="#">Singapore</a>
+                <a href="#">Hongkong</a>
+                <a href="#">Canada</a>
+            </div>
+            <div class="third-column columns">
+                <h1>Help</h1>
+                <a href="#">Help Center</a>
+                <a href="#">Contact support</a>
+                <a href="#">Constructions</a>
+                <a href="#">How it work</a>
+            </div>
+        </footer>
+        <!-- <br><br><br><br><br><br><br> -->
+        <script src="slide.js"></script>
+        <script src="burger.js"></script>
+        <script src="https://kit.fontawesome.com/dbc10ce6b5.js" crossorigin="anonymous"></script>
 </body>
 </html>
