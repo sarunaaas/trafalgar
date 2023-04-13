@@ -8,7 +8,6 @@
 
 body {
     font-family: 'Mulish', sans-serif;
-    width: auto;
 }
 
 html {
@@ -54,7 +53,7 @@ html {
     width: 0; /* Initially set width to 0 */
     height: 2px; /* Set line thickness */
     background-color: purple;
-    transition: width 0.4s ease-out; /* Add a transition to the width property */
+    transition: width 0.4s ease-out;  /* Add a transition to the width property */
 }
 
 .menu__links li a:hover::after {
@@ -588,8 +587,7 @@ html {
 
   .about-project {
     width: 388px;
-    position: absolute;
-    left: 10%;
+    /* left: 50px; */
   }
 
   .about-project p {
@@ -635,6 +633,14 @@ i.burger {
     display: none;
 }
 
+
+@media (max-width: 300px) {
+    body {
+        width: 115%;
+    }
+}
+
+
 @media (max-width: 1500px) {
     .about-project p {
         width: 280px;
@@ -650,7 +656,7 @@ i.burger {
 
 @media (max-width: 1140px) {
     .content h1 {
-        font-size: 8px;
+        font-size: 32px;
         line-height: 46px;
         margin-bottom: 25px;
     }
@@ -675,11 +681,22 @@ i.burger {
         margin-top: 30px;
         margin-bottom: 30px;
       }
+      
     .about-project {
+        /* text-align: left;
+        display: flex;
         margin-top: 20px;
-        position: relative;
-        left: 50px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; */
+        width: 100%;
+        padding-left: 50px;
     }
+
+    .logotype {
+        margin-top: 30px;
+    }
+
     .footer-vector {
         display: none;
     }
@@ -707,17 +724,17 @@ i.burger {
     .article-p {
         font-size: 18px;
         line-height: 34px;
-        width: 370px;
+        width: 100%;
     }
     .article-h1 {
         font-size: 32px;
         line-height: 42px;
-        width: 370px;
+        width: 100%;
       }
     .article-card {
         display: flex;
         flex-direction: column;
-        width: 392px;
+        width: auto;
         height: auto;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
         background-color: #fff;
@@ -746,7 +763,7 @@ i.burger {
         top: 40px;
         width: 100%;
         height: auto;
-        background-color: #999;
+        background-color: #458FF6;
     }
     .menu__links.is-active {
         display: flex;
@@ -777,12 +794,14 @@ i.burger {
     
     
     i.burger {
+        right: 30px;
         display: block;
     }
 
     .navbar {
         position: relative;
         margin-left: 0;
+        margin-right: 0;
     }
 
     .logotipas {
@@ -802,6 +821,7 @@ i.burger {
     }
     .content {
         text-align: center;
+        width: auto;
     }
 
     .content a {
@@ -917,7 +937,7 @@ i.burger {
 @media (max-width: 800px) {
     .responsive-kazkoks {
         display: flex;
-        width: 400px;
+        width: auto;
         object-fit: cover;
     }
 
@@ -927,15 +947,15 @@ i.burger {
         justify-content: center;
     }
     .first_card {
-        width: 70%;
-        margin: 20px auto;
+        width: 320px;
+        margin: 10px auto;
     }
     .menu__links {
         display: none;
         justify-content: center;
         flex-direction: column;
         position: absolute;
-        background-color: #999;
+        background-color:  #458FF6;
         z-index: 1;
         right: 0;
         width: 100%;
@@ -967,7 +987,7 @@ i.burger {
         margin-left: 0;
     }
     i.burger {
-        right: 100px;
+        right: 60px;
     }
     .logotipas {
         margin-left: 20px;
